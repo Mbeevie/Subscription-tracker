@@ -1,5 +1,4 @@
 import User from "../models/user.model.js";
-import { authenticateToken } from "../middlewares/auth.middleware.js";
 
 export const getAllUsers = async (req, res, next) => {
     try {
